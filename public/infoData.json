@@ -2,19 +2,28 @@
   "organizer": [
     {
       "list": [
-        {"title": "中華民國人壽保險商業同業公會", "image": "/images/organizers/logo_01.png", "href": "https://www.lia-roc.org.tw/"},
-        {"title": "信義房屋", "image": "/images/organizers/logo_02.png", "href": "https://www.sinyi.com.tw/"},
-        {"title": "玉山金控", "image": "/images/organizers/logo_03.png", "href": "https://www.esunfhc.com/zh-tw"},
-        {"title": "玉山銀行", "image": "/images/organizers/logo_04.png", "href": "https://www.esunbank.com/zh-tw/about/announcement/anti-fraud"},
-        
-        {"title": "台新新光金控", "image": "/images/organizers/logo_05.png", "href": "https://www.tsholdings.com.tw/tsh/"},
-        {"title": "台新銀行", "image": "/images/organizers/logo_06.png", "href": "https://www.taishinbank.com.tw/TSB/fair-treatment/anti-fraud/"},
-        {"title": "國票金控", "image": "/images/organizers/logo_07.png", "href": "https://www.ibfs.com.tw/antiFraud/Default.aspx"},
-        {"title": "台中銀行", "image": "/images/organizers/logo_08.png", "href": "https://www.tcbbank.com.tw/Statutory/R_06.html"},
-        {"title": "高雄銀行", "image": "/images/organizers/logo_09.png", "href": "https://www.bok.com.tw/anti-fraud"},
-        {"title": "臺南市政府", "image": "/images/organizers/logo_10.png", "href": "https://www.tnpd.gov.tw/Article/446e9d99-9b83-4443-fb0d-b9467c9bb944"},
-        
-        {"title": "臺南市警察局", "image": "/images/organizers/logo_11.png", "href": "https://www.tnpd.gov.tw/Article/446e9d99-9b83-4443-fb0d-b9467c9bb944"}      ]
+        {"title": "證交所", "image": "/images/organizers/logo_01.png", "href": ""},
+        {"title": "櫃買中心", "image": "/images/organizers/logo_02.png", "href": ""},
+        {"title": "期交所", "image": "/images/organizers/logo_03.png", "href": ""},
+        {"title": "集保所", "image": "/images/organizers/logo_04.png", "href": ""},
+        {"title": "投信投顧公會", "image": "/images/organizers/logo_05.png", "href": ""},
+        {"title": "壽險公會", "image": "/images/organizers/logo_06.png", "href": "https://www.lia-roc.org.tw/"},
+        {"title": "證券公會", "image": "/images/organizers/logo_07.png", "href": ""},
+        {"title": "聯卡中心NCCC", "image": "/images/organizers/logo_08.png", "href": ""},
+        {"title": "信義房屋", "image": "/images/organizers/logo_09.png", "href": "https://www.sinyi.com.tw/"},
+        {"title": "玉山金控", "image": "/images/organizers/logo_10.png", "href": "https://www.esunfhc.com/zh-tw"},
+        {"title": "玉山銀行", "image": "/images/organizers/logo_11.png", "href": "https://www.esunbank.com/zh-tw/about/announcement/anti-fraud"},
+        {"title": "台新新光金控", "image": "/images/organizers/logo_12.png", "href": "https://www.tsholdings.com.tw/tsh/"},
+        {"title": "台新銀行", "image": "/images/organizers/logo_13.png", "href": "https://www.taishinbank.com.tw/TSB/fair-treatment/anti-fraud/"},
+        {"title": "國泰人壽", "image": "/images/organizers/logo_14.png", "href": ""},
+        {"title": "國票金控", "image": "/images/organizers/logo_15.png", "href": "https://www.ibfs.com.tw/antiFraud/Default.aspx"},
+        {"title": "彰化銀行", "image": "/images/organizers/logo_16.png", "href": ""},     
+        {"title": "台中銀行", "image": "/images/organizers/logo_17.png", "href": "https://www.tcbbank.com.tw/Statutory/R_06.html"},
+        {"title": "高雄銀行", "image": "/images/organizers/logo_18.png", "href": "https://www.bok.com.tw/anti-fraud"},
+        {"title": "高雄市政府", "image": "/images/organizers/logo_19.png", "href": ""},
+        {"title": "臺南市政府", "image": "/images/organizers/logo_20.png", "href": "https://www.tnpd.gov.tw/Article/446e9d99-9b83-4443-fb0d-b9467c9bb944"},
+        {"title": "臺南市警察局", "image": "/images/organizers/logo_21.png", "href": "https://www.tnpd.gov.tw/Article/446e9d99-9b83-4443-fb0d-b9467c9bb944"}
+      ]
     }
   ]
 }
