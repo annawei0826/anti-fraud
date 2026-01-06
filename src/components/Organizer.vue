@@ -38,7 +38,7 @@ const props = defineProps({
                     target="_blank"
                   >
                     <img
-                      class="absolute h-full w-full object-contain logo_img"
+                      :class="`absolute h-full w-full object-contain ${organizer.title === '證交所' ? 'scale-110' : ''} ${organizer.title === '永豐金控銀行' ? 'scale-[1.2] sm:scale-[1.2] lg:scale-[1.4]' : ''}`"
                       :src="`${isDev ? '' : '.'}${organizer.image}`"
                       :alt="organizer.title"
                       loading="lazy"
@@ -46,7 +46,7 @@ const props = defineProps({
                   </a>
                   <div v-else class="relative block pb-[34%]">
                     <img
-                      class="absolute h-full w-full object-contain"
+                      :class="`absolute h-full w-full object-contain ${organizer.title === '證交所' ? 'scale-110' : ''} ${organizer.title === '永豐金控銀行' ? 'scale-[1.2] sm:scale-[1.2] lg:scale-[1.4]' : ''}`"
                       :src="`${isDev ? '' : '.'}${organizer.image}`"
                       :alt="organizer.title"
                       loading="lazy"
@@ -63,7 +63,5 @@ const props = defineProps({
 </template>
 
 <style scoped>
-  .logo_img {
-    transform: scale(1.1);
-  }
+ 
 </style>>
