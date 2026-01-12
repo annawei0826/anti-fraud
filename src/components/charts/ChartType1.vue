@@ -212,64 +212,44 @@ const chartData = [
           legendHoverLink: false,
         },
         {
-          name: '18-29歲', type: 'bar', stack: 'total',
+          name: '曾被詐騙造成財損', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [8, 13.4, 76.6, 2]
+          data: [8, 9.9, 9.1, 7.1, 6.7, 11.7]
         },
         {
-          name: '30-39歲', type: 'bar', stack: 'total',
+          name: '差點被騙未有財損', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [9.9, 15, 75.1, 0]
+          data: [13.4, 15, 14.9, 13.9, 15.5, 15.3]
         },
         {
-          name: '40-49歲', type: 'bar', stack: 'total',
+          name: '目前都能辨識', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [9.1, 14.9, 74.2, 1.8]
+          data: [76.6, 75.1, 74.2, 78.7, 76.6, 71.2]
         },
         {
-          name: '50-59歲', type: 'bar', stack: 'total',
+          name: '不確定／無法判斷', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [7.1, 13.9, 78.7, 0.3]
-        },
-        {
-          name: '60-69歲', type: 'bar', stack: 'total',
-          label: {
-            show: true,
-            formatter: params => (params.value > 5 ? params.value + '%' : ''),
-          },
-          emphasis: { focus: 'series' },
-          barWidth: 45,
-          data: [6.7, 15.5, 76.6, 1.3]
-        },
-        {
-          name: '70歲以上', type: 'bar', stack: 'total',
-          label: {
-            show: true,
-            formatter: params => (params.value > 5 ? params.value + '%' : ''),
-          },
-          emphasis: { focus: 'series' },
-          barWidth: 45,
-          data: [11.7, 15.3, 71.2, 1.9]
+          data: [2, 0, 1.8, 0.3, 1.2, 1.8]
         }
       ]
     }
@@ -309,7 +289,7 @@ const chartData = [
         {
           name: 'labelName', // 偽yAxis label
           type: 'bar',
-          data: [0, 0, 0, 0],
+          data: [0, 0, 0, 0, 0],
           barWidth: 0,
           label: {
             show: true,
@@ -324,54 +304,44 @@ const chartData = [
           legendHoverLink: false,
         },
         {
-          name: '國中以下', type: 'bar', stack: 'total',
+          name: '曾被詐騙造成財損', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [9.5, 15.7, 74.4, 0.3]
+          data: [9.5, 6.9, 7.7, 9.5, 11.7]
         },
         {
-          name: '高中職', type: 'bar', stack: 'total',
+          name: '差點被騙未有財損', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [6.9, 13.3, 77.5, 2.3]
+          data: [15.7, 13.3, 17.4, 13.4, 16.6]
         },
         {
-          name: '專科', type: 'bar', stack: 'total',
+          name: '目前都能辨識', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [7.7, 17.4, 71.9, 3]
+          data: [74.4, 77.5, 71.9, 76.5, 71.7]
         },
         {
-          name: '大學', type: 'bar', stack: 'total',
+          name: '不確定／無法判斷', type: 'bar', stack: 'total',
           label: {
             show: true,
             formatter: params => (params.value > 5 ? params.value + '%' : ''),
           },
           emphasis: { focus: 'series' },
           barWidth: 45,
-          data: [9.5, 13.4, 76.5, 0.6]
-        },
-        {
-          name: '碩、博士', type: 'bar', stack: 'total',
-          label: {
-            show: true,
-            formatter: params => (params.value > 5 ? params.value + '%' : ''),
-          },
-          emphasis: { focus: 'series' },
-          barWidth: 45,
-          data: [11.7, 16.6, 71.7, 0]
+          data: [0.3, 2.3, 3.0, 0.6, 0]
         }
       ]
     }
