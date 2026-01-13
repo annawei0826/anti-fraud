@@ -8,8 +8,8 @@
       </h1>
       <div class="container">
         <Introduction>
-          <p>本刊最新調查顯示,詐騙訊息仍層出不窮,近八成認為台灣詐騙問題嚴重、且判刑應該再斟酌加重。</p>
-          <p>為了落實反詐,目前已有多項註記資產的自保方法,多數人仍不知情、高齡者意願低,也都可能成為破口。</p>
+          <p>本刊最新調查顯示，詐騙訊息仍層出不窮，近八成認為台灣詐騙問題嚴重、且判刑應該再斟酌加重。</p>
+          <p>為了落實反詐，目前已有多項註記資產的自保方法，多數人仍不知情、高齡者意願低，也都可能成為破口。</p>
         </Introduction>
       </div>
       
@@ -53,13 +53,19 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router'
 import Title from '../components/Title.vue'
 import Introduction from '../components/Introduction.vue'
 import ChartType1 from '../components/charts/ChartType1.vue'
 import ChartType2 from '../components/charts/ChartType2.vue'
 import ChartType3 from '../components/charts/ChartType3.vue'
 
+const router = useRouter()
+
 const goToAntiFraud = () => {
-  window.location.href = '/'
+  // 使用 router.push 並滾動到頂部
+  router.push('/').then(() => {
+    window.scrollTo(0, 0)
+  })
 }
 </script>
